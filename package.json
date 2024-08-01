@@ -1,13 +1,13 @@
 {
-  "name": "metadata-api-nodejs",
+  "name": "daylight-metadata-api",
   "version": "1.0.0",
-  "description": "Sample metadata API for crypto collectibles",
+  "description": "Metadata API for the Dawn of Daylight NFT",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "node test.js"
   },
-  "author": "Alex Atallah <alex.atallah@opensea.io>",
+  "author": "Ghilia Weldesselasie <ghilia@godaylight.com>",
   "license": "MIT",
   "dependencies": {
     "ejs": "^2.6.1",
