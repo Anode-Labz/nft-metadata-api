@@ -16,12 +16,13 @@ Metadata for each token can include an image, animation, attributes, scalar prop
 ## Getting Started
 
 ### Requirements
-You need node.js (8.11.* or later) and npm installed. If you want to do a Heroku deployment, download and install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and run `heroku login` locally.
+You need Node.js 18 or later and npm installed. If you want to do a Heroku deployment, download and install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) and run `heroku login` locally.
 
 1. Click the **Deploy to Heroku** button above to instantly get it up and running somewhere. You can pick the URL! For this example, let's say that it's `your-metadata-api.herokuapp.com`.
 2. Run `heroku git:clone -a your-metadata-api`, and `cd` into your new directory.
 3. Run `npm install`.
-4. Save the Heroku URL you picked into `src/constants.js` as the `HOST` variable (e.g. `https://your-metadata-api.herokuapp.com`). This is the root URL for the tokens on your contract.
+4. Configure the Heroku URL as the required `HOST` environment variable (for example, `heroku config:set HOST=https://your-metadata-api.herokuapp.com`). This is the root URL for the tokens on your contract.
+
 5. Deploy to Heroku by committing your changes and using `git push heroku master`.
 6. Visit your token's metadata at https://your-metadata-api.herokuapp.com/api/token/1 (for token 1).
 
